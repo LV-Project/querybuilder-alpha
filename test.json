@@ -1,0 +1,25 @@
+{
+  "params": {
+    "questions": [
+      {
+        "question": "what is the most repeated publication title",
+        "input_args": [],
+        "output": ["title", "type"]
+      },
+      {
+        "question": "show me the top ten of most repeated publication title filtered by Print book and ordered in descendant mode by frequency",
+        "input_args": [
+          {
+            "name": "type",
+            "value": "Print book"
+          },
+          {
+            "name": "limit",
+            "value": 10
+          }
+        ],
+        "output": ["title", "frequency"]
+      }
+    ]
+  }
+}
